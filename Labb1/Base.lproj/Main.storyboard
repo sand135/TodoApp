@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,42 +26,42 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="My Week Planner " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeW-Vx-xL6">
-                                                <rect key="frame" x="113.5" y="0.0" width="148" height="24.5"/>
-                                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                                <rect key="frame" x="87.5" y="0.0" width="200" height="31.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Add a new todo:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7k-p3-oeI">
-                                                <rect key="frame" x="15" y="232.5" width="126" height="24.5"/>
+                                                <rect key="frame" x="15" y="239.5" width="126" height="24.5"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cO1-pr-mIA">
-                                                <rect key="frame" x="15" y="265" width="317" height="30"/>
+                                                <rect key="frame" x="15" y="272" width="317" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXv-5s-qLB">
-                                                <rect key="frame" x="15" y="100.5" width="238" height="113"/>
+                                                <rect key="frame" x="15" y="107.5" width="238" height="113"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="113" id="bOZ-sV-NYF"/>
                                                 </constraints>
                                             </pickerView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Todos comes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOt-AD-sJc">
-                                                <rect key="frame" x="15" y="303" width="352" height="24.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Todos..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOt-AD-sJc">
+                                                <rect key="frame" x="15" y="310" width="352" height="24.5"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hund.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcC-tq-jPv">
-                                                <rect key="frame" x="301" y="93.5" width="66" height="113"/>
+                                                <rect key="frame" x="301" y="100.5" width="66" height="113"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="66" id="65v-32-QuM"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqN-6u-rFo">
-                                                <rect key="frame" x="337" y="265" width="30" height="30"/>
-                                                <color key="backgroundColor" red="1" green="0.9254822895" blue="0.51839193130000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="337" y="272" width="30" height="30"/>
+                                                <color key="backgroundColor" name="stil de grain yellow"/>
                                                 <state key="normal" title="Add">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -69,8 +70,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xMl-78-lIx">
-                                                <rect key="frame" x="15" y="347.5" width="352" height="30"/>
-                                                <color key="backgroundColor" red="0.43161213397979736" green="0.88894492387771606" blue="0.26022893190383911" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="15" y="354.5" width="352" height="30"/>
+                                                <color key="backgroundColor" name="Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="5ut-QP-Wde"/>
                                                 </constraints>
@@ -90,20 +91,20 @@
                                                 </connections>
                                             </button>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="animalsound" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUO-V6-tRS">
-                                                <rect key="frame" x="262" y="68.5" width="105" height="22"/>
+                                                <rect key="frame" x="262" y="75.5" width="105" height="22"/>
                                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Select day: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeS-m3-KYq">
-                                                <rect key="frame" x="15" y="64.5" width="93" height="24.5"/>
+                                                <rect key="frame" x="15" y="71.5" width="93" height="24.5"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.20884695649147034" green="0.65386670827865601" blue="0.98527282476425171" alpha="0.88792273116438358" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" name="Light slate gray"/>
                                         <constraints>
                                             <constraint firstItem="xMl-78-lIx" firstAttribute="leading" secondItem="FOt-AD-sJc" secondAttribute="leading" id="2dV-eD-0ye"/>
-                                            <constraint firstItem="PUO-V6-tRS" firstAttribute="top" secondItem="EeW-Vx-xL6" secondAttribute="bottom" constant="44" id="4Yy-Ez-CgK"/>
+                                            <constraint firstItem="PUO-V6-tRS" firstAttribute="top" secondItem="EeW-Vx-xL6" secondAttribute="bottom" priority="250" constant="44" id="4Yy-Ez-CgK"/>
                                             <constraint firstItem="bcC-tq-jPv" firstAttribute="trailing" secondItem="sqN-6u-rFo" secondAttribute="trailing" id="4iy-0x-IOJ"/>
                                             <constraint firstItem="y7k-p3-oeI" firstAttribute="leading" secondItem="ZXv-5s-qLB" secondAttribute="leading" id="5FU-5e-UyN"/>
                                             <constraint firstAttribute="trailing" secondItem="FOt-AD-sJc" secondAttribute="trailing" constant="8" id="6rQ-kC-GHY"/>
@@ -148,7 +149,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.21845674514770508" green="0.65732473134994507" blue="0.98532253503799438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="Light slate gray"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nuh-HS-xLi" secondAttribute="trailing" id="5Sz-hy-jwW"/>
                             <constraint firstItem="nuh-HS-xLi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5X9-SJ-Twl"/>
@@ -174,5 +175,14 @@
     </scenes>
     <resources>
         <image name="hund.jpg" width="580" height="800"/>
+        <namedColor name="Color">
+            <color red="0.792156862745098" green="0.90588235294117647" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Light slate gray">
+            <color red="0.49411764705882355" green="0.49803921568627452" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="stil de grain yellow">
+            <color red="0.97647058823529409" green="0.86274509803921573" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
